@@ -21,13 +21,46 @@ ul {
     list-style: none;
 }
 
-.login-form {
-    width: 420px;
-    max-width: 100%;
+.login-page {
+    max-width: 420px;
+    width: 100%;
     background-color: #ffffff;
     border: 1px solid #d7d7d7;
     border-radius: 5px;
     overflow: hidden;
+}
+
+.login-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4d6ea6;
+    padding: 0 30px;
+    color: #ffffff;
+    line-height: 26px;
+}
+
+.login-form-title {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.social-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social-item {
+    padding: 20px 30px;
+    border-left: 1px solid #3f5f95;
+}
+
+.social-item:last-child {
+    padding-right: 0;
+}
+
+.social-link {
+    display: block;
 }
 
 .subscribe-form {
@@ -80,35 +113,7 @@ ul {
     background-color: #d33f44;
 }
 
-.login-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #4d6ea6;
-    padding: 0 30px;
-    color: #ffffff;
-    font-size: 22px;
-}
-
-.menu-list {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.menu-item {
-    padding: 20px 30px;
-    border-left: 1px solid #3f5f95;
-}
-
-.menu-item:last-child {
-    padding-right: 0;
-}
-
-.menu-link {
-    display: block;
-}
-
-.login-footer {
+.page-footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,13 +121,14 @@ ul {
     padding: 20px 0;
     background-color: #f3f3f3;
     color: #929292;
+    line-height: 21px;
 }
 
-.login-footer span {
+.page-footer span {
     color: #f35b61;
 }
 
-.login-footer span:hover {
+.page-footer span:hover {
     text-decoration: underline;
     cursor: pointer;
 }

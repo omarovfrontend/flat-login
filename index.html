@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Flat login</title>
 </head>
@@ -30,12 +31,19 @@
         </header>
         <form class="subscribe-form" action="#">
             <input class="subscribe-form-email" type="email" placeholder="Email Address" required>
-            <input class="subscribe-form-password" type="password" placeholder="Password" required>
+            <div class="input-password">
+                <input class="subscribe-form-password" type="password" placeholder="Password" required>
+                <button class="input-password__btn js-eyes-btn" type="button">
+                    <i class="fas fa-eye"></i>
+                </button>
+            </div>
             <button class="subscribe-form-btn" type="submit">Login into Your Account</button>
         </form>
         <footer class="page-footer">
             <p>New Here? <span>Sign Up</span></p>
         </footer>
     </div>
+
+    <script src="./main.js"></script>
 </body>
 </html>

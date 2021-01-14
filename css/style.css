@@ -76,7 +76,7 @@ ul {
     font-size: 18px;
     border: 1px solid #dfdfdf;
     margin-bottom: 25px;
-    padding: 15px 90px 15px 25px;
+    padding: 15px 60px 15px 25px;
     border-radius: 5px;
     background-repeat: no-repeat;
     background-position: 95% 50%;
@@ -91,21 +91,21 @@ ul {
     background-image: url(../img/email.png);
 }
 
-.subscribe-form-password {
-    background-image: url(../img/locked.png);
-    background-position-x: 94.5%;
-}
-
 .input-password {
     position: relative;
 }
 
 .input-password__btn {
     position: absolute;
-    top: 20px;
-    right: 60px;
+    top: 15px;
+    right: 18px;
     border: none;
     outline: none;
+}
+
+.fas {
+    font-size: 25px;
+    color: #a7a6a6;
 }
 
 .subscribe-form-btn {

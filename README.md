@@ -1,4 +1,4 @@
 # flat-login
 Верстка макета flat-login
 
-Demo - https://omarov-frontend.github.io/flat-login/
+Demo - https://omarovfrontend.github.io/flat-login/
